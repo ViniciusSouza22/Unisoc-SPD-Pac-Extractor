@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/26392824/README.md)
+[README.md](https://github.com/user-attachments/files/26392877/README.md)
 # 📦 Unisoc SPD Pac Extractor
 
 <div align="center">
@@ -102,7 +102,7 @@ cd unisoc-spd-pac-tool
 # Instale as dependências
 npm install
 
-# Inicie o app
+# Inicie o app em modo de teste
 npm start
 ```
 
@@ -113,6 +113,10 @@ npm run build        # Build para a plataforma atual
 npm run build:win    # Build para Windows (.exe)
 npm run build:linux  # Build para Linux (.tar.gz)
 ```
+
+> 💡 **Dica:** Antes de buildar, certifique-se de que todas as dependências estão instaladas com `npm install`.
+
+> ⚠️ **Build Linux no Windows:** O build para Linux precisa ser feito em uma máquina Linux ou via WSL2. No Windows, use `wsl --install` para instalar o WSL2 e rode `npm run build:linux` dentro dele.
 
 ---
 
